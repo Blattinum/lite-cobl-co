@@ -33,10 +33,6 @@ nav {
     padding: 15px;
 }
 
-blockquote {
-    width: 25%;
-}
-
 blockquote > h1, h2, h3, h4 {
     border-bottom: 1.5px solid hsla(25, 63%, 45%, 0.5);
     padding: 1.5px;
