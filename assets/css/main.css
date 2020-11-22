@@ -14,11 +14,12 @@ body {
 
 h1 {
     font-size: 3.2rem;
+    text-align: center;
 }
 
 .page-container {
     margin: 15px auto;
-    max-width: 50%;
+    max-width: 30%;
 }
 
 
