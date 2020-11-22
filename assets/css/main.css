@@ -42,3 +42,9 @@ blockquote > h1, h2, h3, h4 {
 blockquote > p {
     font-style: oblique;
 }
+
+@media only screen and (max-width: 600px) {
+    .page-container {
+        margin: 15px auto;
+    }
+}
