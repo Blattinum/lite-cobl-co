@@ -25,15 +25,18 @@ nav {
     text-align: center;
 }
 
-blockquote {
+.bq-info {
     background-color: hsla(25, 63%, 55%, 0.50);
     border-left: 15px solid hsla(25, 63%, 45%, 1);
     font-weight: bold;
     padding: 15px;
 }
 
-/*blockquote > h1 h2 h3 h4 */
+blockquote > h1, h2, h3, h4 {
+    border-bottom: 1.5px solid hsla(25, 63%, 45%, 0.5);
+    padding: 1.5px;
+}
 
-blockquote > p:first-of-type, p::firstletter {
-    font-size: 6.0rem;
+blockquote > p {
+    font-style: oblique;
 }
