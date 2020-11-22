@@ -20,9 +20,6 @@ h1 {
     margin: 15px auto;
 }
 
-hr {
-   
-}
 
 nav {
     text-align: center;
@@ -33,4 +30,10 @@ blockquote {
     border-left: 15px solid hsla(25, 63%, 45%, 1);
     font-weight: bold;
     padding: 15px;
+}
+
+/*blockquote > h1 h2 h3 h4 */
+
+blockquote > p:first-of-type, p::firstletter {
+    font-size: 6.0rem;
 }
