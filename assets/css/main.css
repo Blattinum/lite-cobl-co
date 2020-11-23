@@ -70,7 +70,7 @@ dt {
     font-size: calc(var(--fs) + 20%);
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 720px) {
 
     .page-container {
         margin: auto;
