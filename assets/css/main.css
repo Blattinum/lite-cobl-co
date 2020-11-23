@@ -38,13 +38,25 @@ nav {
     padding: 15px;
 }
 
-blockquote {
-    margin: 0;
+.bq-info > h1, h2, h3, h4 {
+    border-bottom: 1.5px solid hsla(0, 0%, 0%, 0.10);
+    padding: 1.5px;
 }
 
-blockquote > h1, h2, h3, h4 {
-    border-bottom: 1.5px solid hsla(25, 63%, 45%, 0.5);
+.bq-alert {
+    background-color: hsla(9, 100%, 70%, 0.7);
+    border-left: 15px solid hsla(9, 100%, 64%, 1);
+    font-weight: bold;
+    padding: 15px;
+}
+
+.bq-alert > h1, h2, h3, h4 {
+    border-bottom: 1.5px solid hsla(0, 0%, 0%, 0.10);
     padding: 1.5px;
+}
+
+blockquote {
+    margin: 0;
 }
 
 blockquote > p {
