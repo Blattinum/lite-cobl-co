@@ -23,7 +23,7 @@ h1 {
 
 .page-container {
     margin: 15px auto;
-    max-width: 30%;
+    max-width: 50%;
 }
 
 
@@ -36,6 +36,10 @@ nav {
     border-left: 15px solid hsla(25, 63%, 45%, 1);
     font-weight: bold;
     padding: 15px;
+}
+
+blockquote {
+    margin: 0;
 }
 
 blockquote > h1, h2, h3, h4 {
