@@ -1,3 +1,5 @@
+/* FONTS */
+
 @font-face {
     font-family: 'Zilla Slab';
     src: url('ZillaSlab-Italic.woff2') format('woff2'),
@@ -87,4 +89,3 @@
     font-style: normal;
     font-display: swap;
 }
-
