@@ -67,7 +67,7 @@ dt {
     }
 
     h1 {
-        font-size: calc(var(--fs) + 60%);
+        font-size: calc(var(--fs) + 100%);
     }
 }
 
