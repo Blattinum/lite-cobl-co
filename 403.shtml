@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<title>403 Forbidden</title>
+
+
+<h1> Uh-oh&hellip; </h1>
+
+You don't have permission to access
+<!--#echo var="REQUEST_URI" --> on this server.
+
+
+``
+<!--#echo var="REMOTE_ADDR" -->`` &#124; ``
+<!--#echo var="HTTP_USER_AGENT" --> ``
+
+</html>

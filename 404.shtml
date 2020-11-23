@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+<title>404 Not Found</title>
+
+<h1> Hmm&hellip; </h1>
+
+The requested URL
+<!--#echo var="REQUEST_URI" --> was not found on this server.
+
+
+``
+<!--#echo var="REMOTE_ADDR" -->`` &#124; ``
+<!--#echo var="HTTP_USER_AGENT" --> ``
+
+</html>
