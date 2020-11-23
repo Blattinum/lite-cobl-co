@@ -44,7 +44,7 @@ nav {
 }
 
 .bq-alert {
-    background-color: hsla(9, 100%, 70%, 0.7);
+    background-color: hsla(9, 100%, 70%, 0.4);
     border-left: 15px solid hsla(9, 100%, 64%, 1);
     font-weight: bold;
     padding: 15px;
