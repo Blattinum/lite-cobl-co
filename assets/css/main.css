@@ -65,6 +65,10 @@ dt {
         padding: 5px;
         max-width: 100%;
     }
+
+    h1 {
+        font-size: calc(var(--fs) + 60%);
+    }
 }
 
 
