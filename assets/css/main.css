@@ -63,7 +63,7 @@ blockquote > p {
     font-style: oblique;
 }
 
-dt {
+summary {
     font-style: oblique;
     font-weight: bolder;
     text-decoration: underline;
