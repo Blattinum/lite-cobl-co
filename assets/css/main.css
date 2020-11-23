@@ -32,8 +32,8 @@ nav {
 }
 
 .bq-info {
-    background-color: /*hsla(25, 63%, 55%, 0.50)*/ sandybrown;
-    border-left: 15px solid /*hsla(25, 63%, 45%, 1)*/ saddlebrown;
+    background-color: hsla(25, 63%, 55%, 0.50);
+    border-left: 15px solid hsla(25, 63%, 45%, 1);
     font-weight: bold;
     padding: 15px;
 }
