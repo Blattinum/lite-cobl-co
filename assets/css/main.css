@@ -23,7 +23,7 @@ h1 {
 
 .page-container {
     margin: 15px auto;
-    max-width: 50%;
+    max-width: 65%;
 }
 
 
@@ -68,6 +68,10 @@ summary {
     font-weight: bolder;
     text-decoration: underline;
     font-size: calc(var(--fs) + 20%);
+}
+
+dialog::backdrop {
+    background: rgba(255,0,0,.25);
 }
 
 @media only screen and (max-width: 720px) {
