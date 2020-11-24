@@ -58,7 +58,9 @@ nav {
 blockquote {
     margin: 0;
     border: 1px solid hsla(0, 0%, 0%, 0.1);
-    box-shadow: 2.5px 4px hsla(0, 0%, 0%, 0.5);
+    /*box-shadow: 2.5px 4px hsla(0, 0%, 0%, 0.5);*/
+    box-shadow: 0px 0px 12px 0px hsla(0, 0%, 0%, 0.5);
+    border-radius: 0.5rem;
 }
 
 blockquote > p {
