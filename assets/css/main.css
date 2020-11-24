@@ -93,6 +93,10 @@ section > p::first-letter {
     padding-left: 5rem;
 }
 
+section > hr {
+    border-top: 1px dashed red;
+  }
+
 @media only screen and (max-width: 720px) {
 
     .page-container {
