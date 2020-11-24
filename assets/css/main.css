@@ -100,6 +100,9 @@ section > p::first-letter {
         padding: 5px;
         max-width: 100%;
     }
+    section > p::first-letter {
+        padding-left: 2.5rem;
+    }
 }
 
 
