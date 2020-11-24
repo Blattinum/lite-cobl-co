@@ -32,8 +32,8 @@ nav {
 }
 
 .bq-info {
-    background-color: hsla(25, 63%, 55%, 0.50);
-    border-left: 15px solid hsla(25, 63%, 45%, 1);
+    background-color: hsla(25, 63%, 55%, 0.40);
+    border-left: 15px solid hsla(25, 63%, 45%, 0.60);
     font-weight: bold;
     padding: 15px;
 }
@@ -94,7 +94,7 @@ section > p::first-letter {
 }
 
 section > hr {
-    border-top: 1px dashed red;
+    border-top: 1rem dashed hsla(0, 0%, 0%, 0.10);
   }
 
 @media only screen and (max-width: 720px) {
