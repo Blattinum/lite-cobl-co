@@ -57,6 +57,8 @@ nav {
 
 blockquote {
     margin: 0;
+    border: 1px solid hsla(0, 0%, 0%, 0.1);
+    box-shadow: 2.5px 5px hsla(0, 0%, 0%, 0.5);
 }
 
 blockquote > p {
@@ -72,6 +74,11 @@ summary {
 
 dialog::backdrop {
     background: rgba(255,0,0,.25);
+}
+
+blockquote > ::selection {
+    background: #2b2b2b;
+    color: #fff;   
 }
 
 ::selection {
