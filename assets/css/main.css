@@ -79,6 +79,20 @@ dialog::backdrop {
     color: #fff;
 }
 
+section > p:first-child::first-letter {
+    font-size: calc(var(--fs) + 150%);
+}
+
+section > p:first-child::first-line {
+    font-size: calc(var(--fs) + 60%);
+    font-style: oblique;
+    letter-spacing: 0.25rem;
+}
+
+section > p::first-letter {
+    padding-left: 5rem;
+}
+
 @media only screen and (max-width: 720px) {
 
     .page-container {
