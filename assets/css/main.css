@@ -95,7 +95,7 @@ section > p:first-child::first-letter {
 section > p:first-child::first-line {
     font-size: calc(var(--fs) + 60%);
     font-style: oblique;
-    letter-spacing: 0.25rem;
+    letter-spacing: 0.1rem;
 }
 
 section > p::first-letter {
