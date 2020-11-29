@@ -122,6 +122,12 @@ width: 200px;
 height: 200px;
 }
 
+.sq-child4 {
+    background-color: hotpink;
+    width: 200px;
+    height: 200px;
+    }
+
 @media only screen and (max-width: 720px) {
 
     .page-container {
