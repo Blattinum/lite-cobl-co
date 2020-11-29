@@ -1,5 +1,5 @@
     :root {
-        --fs: 2.6rem;
+        --fs: 3.2rem;
         --sq-w: 25rem;
         --sq-h: 25rem;
     }
@@ -25,12 +25,21 @@ h1 {
 
 .page-container {
     margin: 15px auto;
-    max-width: 65%;
+    max-width: 75%;
 }
 
 
 nav {
     text-align: center;
+}
+
+nav > a {
+    color: hsla(156, 61%, 31%, 1);
+}
+
+nav > a:hover {
+    color: hsla(156, 61%, 31%, 0.50);
+    font-style: oblique;
 }
 
 .bq-info {
@@ -104,6 +113,7 @@ section > hr {
 .sq-parent {
 display: flex;
 flex-direction: row;
+cursor: crosshair;
 }
 
 .sq-child1 {
