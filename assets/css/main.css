@@ -1,5 +1,7 @@
     :root {
         --fs: 2.6rem;
+        --sq-w: 25rem;
+        --sq-h: 25rem;
     }
 
 html {
@@ -107,29 +109,29 @@ flex-direction: row;
 .sq-child1 {
 background: rgb(187,59,14);
 background: linear-gradient(138deg, rgba(187,59,14,1) 0%, rgba(201,88,48,1) 100%);
-width: 200px;
-height: 200px;
+width: var(--sq-w);
+height: var(--sq-h);
 }
 
 .sq-child2 {
 background: rgb(221,118,49);
 background: linear-gradient(138deg, rgba(221,118,49,1) 0%, rgba(219,101,22,1) 100%);
-width: 200px;
-height: 200px;
+width: var(--sq-w);
+height: var(--sq-h);
 }
 
 .sq-child3 {
 background: rgb(112,129,96);
 background: linear-gradient(138deg, rgba(112,129,96,1) 0%, rgba(87,99,75,1) 100%);
-width: 200px;
-height: 200px;
+width: var(--sq-w);
+height: var(--sq-h);
 }
 
 .sq-child4 {
 background: rgb(216,197,147);
 background: linear-gradient(138deg, rgba(216,197,147,1) 0%, rgba(180,165,128,1) 100%);
-width: 200px;
-height: 200px;
+width: var(--sq-w);
+height: var(--sq-h);
     }
 
 @media only screen and (max-width: 720px) {
