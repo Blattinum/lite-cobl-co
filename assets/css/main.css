@@ -99,6 +99,29 @@ section > hr {
     border-top: 1rem dashed hsla(0, 0%, 0%, 0.10);
   }
 
+.sq-parent {
+display: flex;
+flex-direction: row;
+}
+
+.sq-child1 {
+background-color: blue;
+width: 200px;
+height: 200px;
+}
+
+.sq-child2 {
+background-color: green;
+width: 200px;
+height: 200px;
+}
+
+.sq-child3 {
+background-color: orangered;
+width: 200px;
+height: 200px;
+}
+
 @media only screen and (max-width: 720px) {
 
     .page-container {
