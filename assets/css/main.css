@@ -105,27 +105,31 @@ flex-direction: row;
 }
 
 .sq-child1 {
-background-color: blue;
+background: rgb(187,59,14);
+background: linear-gradient(138deg, rgba(187,59,14,1) 0%, rgba(201,88,48,1) 100%);
 width: 200px;
 height: 200px;
 }
 
 .sq-child2 {
-background-color: green;
+background: rgb(221,118,49);
+background: linear-gradient(138deg, rgba(221,118,49,1) 0%, rgba(219,101,22,1) 100%);
 width: 200px;
 height: 200px;
 }
 
 .sq-child3 {
-background-color: orangered;
+background: rgb(112,129,96);
+background: linear-gradient(138deg, rgba(112,129,96,1) 0%, rgba(87,99,75,1) 100%);
 width: 200px;
 height: 200px;
 }
 
 .sq-child4 {
-    background-color: hotpink;
-    width: 200px;
-    height: 200px;
+background: rgb(216,197,147);
+background: linear-gradient(138deg, rgba(216,197,147,1) 0%, rgba(180,165,128,1) 100%);
+width: 200px;
+height: 200px;
     }
 
 @media only screen and (max-width: 720px) {
