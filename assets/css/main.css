@@ -110,6 +110,11 @@ section > hr {
     border-top: 1rem dashed hsla(0, 0%, 0%, 0.10);
   }
 
+a[target="_blank"] { 
+    
+    color: green;
+}
+
 .sq-parent {
 display: flex;
 flex-direction: row;
