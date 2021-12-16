@@ -112,7 +112,7 @@ section > hr {
 
 a[target="_blank"]::after { 
 
-    content: "&nbsp;&nbsp;🗽";
+    content: "  🗽";
   }
 
 .sq-parent {
